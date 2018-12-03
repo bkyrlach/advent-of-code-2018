@@ -1,9 +1,11 @@
+package day01
+
 import scala.annotation.tailrec
 import scala.io.Source
 
 object Program {
   def main(args: Array[String]): Unit = {
-    val input = Source.fromFile("input.txt").getLines.toList.map { _.toInt }
+    val input = Source.fromFile("./day01/input.txt").getLines.toList.map { _.toInt }
     // Part 1
     println(input.sum)
 
